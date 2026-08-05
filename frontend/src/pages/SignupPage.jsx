@@ -49,7 +49,7 @@ export function SignupPage() {
 
   try {
     const response = await fetch(
-      "http://localhost:5000/api/users/register",
+      "https://ecommerce-92qy.onrender.com/api/users/register",
       {
         method: "POST",
         headers: {

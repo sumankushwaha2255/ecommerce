@@ -52,7 +52,7 @@ export default function ProductsPage() {
   const fetchProducts = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/productsdetails"
+        "https://ecommerce-92qy.onrender.com/api/productsdetails"
       );
 
       const data = await response.json();
